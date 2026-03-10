@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern Notes App</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🧠 My Notes</h1>
+
+<div class="controls">
+
+<input id="search" placeholder="Search notes...">
+
+<button id="addBtn">➕ New Note</button>
+
+<button id="themeBtn">🌙</button>
+
+</div>
+
+</header>
+
+<div id="notesContainer" class="notes-container"></div>
+
+<!-- NOTE MODAL -->
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<input id="noteTitle" placeholder="Note title...">
+
+<textarea id="noteText" placeholder="Write your note..."></textarea>
+
+<input type="color" id="noteColor">
+
+<div class="modal-buttons">
+
+<button id="saveNote">Save</button>
+
+<button id="closeModal">Cancel</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
